@@ -21,14 +21,22 @@
   }
 
   .container{
-    width: 200px;
-    height: auto;
+    width: 320px;
+    height: 500px;
     display: flex;
-    justify-content: center;
+
     flex-direction: column;
     border: 2px solid;
+    border-radius: 10px;
+    background-color: white;
     z-index: 1;
+    text-align: center;
+  
     
+  }
+
+ img .top-image{
+    max-width: 100%;
   }
 
  svg {
@@ -39,3 +47,18 @@
   left:0;
   z-index -1;
  }
+
+.buttons{
+  /* Pushes buttons to bottom */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+button{
+  padding: 10px 5px;
+  width:150px;
+  border-radius: 10px;
+  border: none;
+}
