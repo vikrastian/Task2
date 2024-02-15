@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     /* 100vh and widht 100% of parent element (body) - ensures the body takes up full height of viewport/visible area of the web page. */
-   height: 100vh;
+    height: 100vh;
     width: 100%;
     background-color: hsl(225, 100%, 94%);
     /* overflow:hidden; */
