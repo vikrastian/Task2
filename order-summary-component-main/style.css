@@ -100,5 +100,32 @@ p{
 a:active{
     text-decoration: none;
     color:rgba(56, 41, 224,0.6);
-    
+
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-image: url(./images/pattern-background-mobile.svg);
+    }
+
+    .container {
+        /* height: 450px; */
+        width: 90%; /* Adjust the width to fit mobile devices better */
+        margin: 0 auto; /* Center the container on smaller screens */
+    }
+/* .plan{
+    flex-direction: column;
+    height: 200px;
+    width: 100px;
+    margin: 20px auto;
+} */
+
+    /* Adjust text sizes, margins, paddings, etc., for smaller screens */
+    h1 {
+        font-size: 20px;
+    }
+
+    p {
+        padding: 0 20px;
+    }
 }
