@@ -23,7 +23,7 @@ body{
 
 .container{
     width: 300px;
-    height: 450px;
+    height: 470px;
     border-radius:10px;
     background-color: #fff;
     overflow: hidden;
@@ -70,7 +70,7 @@ button{
 .cancel{
     border:none;
     background: none;
-    color: hsl(223, 47%, 23%);
+    color: hsl(22, 6%, 63%);
 }
 
 span{
@@ -86,4 +86,19 @@ h1{
 
 p{
     padding: 0px 30px;
+}
+
+.payment:active{
+    background-color:rgba(56, 41, 224,0.6);
+}
+
+.cancel:active{
+    color: #fff;
+    color: hsl(224, 23%, 55%);
+}
+
+a:active{
+    text-decoration: none;
+    color:rgba(56, 41, 224,0.6);
+    
 }
